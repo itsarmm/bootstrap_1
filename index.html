@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Survey name</h1>
+      <p class="text-center">Subtitle for Survey Name</p>
+      <hr />
+  
+      <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"
+            >Step 1 <br />
+            Personal Info</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Step_2.html"
+            >Step 2 <br />
+            Questions w/answer</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Step_3.html"
+            >Step 3 <br />
+            Questions w/ratings</a
+          >
+        </li>
+      </ul>
+      <hr/>
+      <div class="tab-content">
+      <div class="tabe-pane fade pt-4 show active" id="step-1" role="tabpanel" aria-labelledby="step-1-tab">
+      <div class="row">
+      <div class="col-md-3 mb-3">
+      <p>Sex</p>
+      <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <label class="form-check-label" for="inlineRadio1">Male</label>
+      </div>
+      <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <label class="form-check-label" for="inlineRadio2">Femal</label>
+      </div>
+      </div>
+      <div class="col-md-3 mb-3">
+      <p>Age</p>
+      <input type="age" class="form-control">
+      </div>
+      <div class="col-md-6 mb-3">
+      <p>Phone</p>
+      <input type="phone" class="form-control">
+      </div>
+      </div>
+      <div class="row">
+      <div class="col-md-6 mb-3">
+      <p>Name</p>
+      <input type="name" class="form-control" placeholder="Name and Surname">
+      </div>
+      <div class="col-md-6 mb-3">
+      <p>Email</p>
+      <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="username@domain.com">
+      </div>
+      </div>
+      <div class="row">
+      <div class="col-md-9 mb-3">
+      <p>Address</p>
+      <input type="adress" class="form-control" placeholder="123 ">
+      </div>
+      <div class="col-md-3 mb-3">
+      <p>Apartment</p>
+      <input type="floor" class="form-control" placeholder="">
+      </div>
+      </div>
+      <div class="row">
+      <div class="col-md-6 mb-3">
+      <p>City</p>
+      <input type="City" class="form-control" placeholder="Moscow">
+      </div>
+      <div class="col-md-2 mb-3">
+      <p>Index</p>
+      <input type="zip" class="form-control" placeholder="123">
+      </div>
+      <div class="col-md-4 mb-3">
+      <p>Country</p>
+      <select class="form-select">
+      <option>Russia</option>
+      <option>England</option>
+      <option>Spain</option>
+      <option>France</option>
+      </select>
+      </div>
+      </div>
+      <a href="Step_2.html" type="button" class="btn btn-outline-secondary d-block ms-auto">Step 2 </a>
+      </a>
+      </div>
+      </div>
+      </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
